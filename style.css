@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.zone-accueil {
+    height: 100vh; /* Prend toute la hauteur visible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.zone-2 {
+    height: 100vh;
+    background-color: lightgreen; /* Couleur pour la zone 2 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zone-3 {
+    height: 100vh;
+    background-color: lightcoral; /* Couleur pour la zone 3 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
